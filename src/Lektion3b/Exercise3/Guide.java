@@ -25,7 +25,7 @@ private AirportQueue nonUsQueue;
             }
 
             try{
-                Thread.sleep(2000);
+                Thread.sleep(1000);
             } catch (InterruptedException e){
                 System.out.println("Guide couldn't wait");
             }

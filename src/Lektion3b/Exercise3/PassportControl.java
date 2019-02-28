@@ -23,6 +23,7 @@ public class PassportControl implements Runnable {
                 System.out.println("I'm the " + type + ". I got a passenger from " + next.getNationality() + " With the number: " + next.getPassportNumber());
             } else {
                 try {
+                    System.out.println("I'm the " + type + ". I got nobody here");
                     Thread.sleep(5000);
                 } catch (InterruptedException e){
                     System.out.println("Could wait for passengers");
